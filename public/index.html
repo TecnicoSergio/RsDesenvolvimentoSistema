@@ -1,6 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- COMANDO PARA INICIO DE PAGINA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+          href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- ======================================================================= -->
+
+
   <head>
+    <body class="p-3 m-0 border-0 bd-example">
+    </body>
+    <h1 align="middle">Rs Tecnologia</h1>
+    <h2 align="middle">Desenvolvimento de Softwarer para sua Empresa.</h2>
+<!-- ======================================================================= -->
+
+<!-- COMANDO PARA BOTAO AZUL -->
+      <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>RsDesenvolvimento</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+    </div>
+  </body>  
+    <!-- ======================================================================= -->
+  
+<!-- COMANDO PARA CARD -->
+  <div class="card" style="width: 18rem;">
+    <img src="data:image/jpeg;base64,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">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+     <!-- ======================================================================= -->
+ <!-- COMANDO PARA CARDS TEXTOS -->
+     <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+      <title>Bootstrap Example</title>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="p-3 m-0 border-0 bd-example">
+  
+     
+      
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </body>
+     <!-- ======================================================================= -->
+<!-- COMANDO PARA CARDS IMAGENS -->
+     <div class="card mb-3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe5ANNh2Li8Vg_R0m4pZkYoaWSBfZe1TPHEA&usqp=CAU" class="card-img-top" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe5ANNh2Li8Vg_R0m4pZkYoaWSBfZe1TPHEA&usqp=CAU">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4LPwPfugWAXo1IK8-JXAuScFDCkKy9S6n5Q&usqp=CAU" class="card-img-bottom" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4LPwPfugWAXo1IK8-JXAuScFDCkKy9S6n5Q&usqp=CAU">
+    </div>
+
+    <!-- ======================================================================= -->
+
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,34 +149,46 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <title>RsAssessoria</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <!-- ======================================================================= -->
+  <!-- COMANDO PARA FIM DE PAGINA -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example bg-body-secondary">
+
+    <!-- Example Code -->
+    
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            RsTecnologia
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="">
+          <div class="accordion-body">© Direitos reservados 2000-2022 Formada por profissionais com vasta experiência em Tecnologias da informação, 
+          a Rs Tecnologia atende empresas dos mais variados portes e setores.
+          Solicite atendimento via WhatsApp (11) 98095-7851. Feito por RsTecnologia Ltda.<code></code> </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- End Example Code -->
   </body>
+
+ 
+    
 </html>
